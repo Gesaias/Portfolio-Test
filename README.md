@@ -1,4 +1,5 @@
 # Portfolio-Test
+
 Portfolio for training
 
 ## Tasks
@@ -9,5 +10,5 @@ O controle das tarefas desse projeto será realizado no GitHub
 
 :package: New functionality
 :up: Update
-:beatle: bug fixes
+:beetle: bug fixes
 :checkered_flag: Release
