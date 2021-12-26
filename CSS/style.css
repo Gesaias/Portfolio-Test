@@ -240,7 +240,7 @@ header{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 4rem);
-    row-gap: 1.8rem;
+    row-gap: 2rem;
 }
 
 .conhecimento:nth-child(1){
