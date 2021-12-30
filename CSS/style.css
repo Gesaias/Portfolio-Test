@@ -15,6 +15,10 @@
     --font-action: "Mulish", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .btn{
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
@@ -34,7 +38,7 @@
     display: flex;
     width: 2rem;
     height: 2rem;
-    z-index: 100;
+    z-index: 160;
     right: 2rem;
     top: 2rem;
     flex-direction: column;
@@ -189,6 +193,7 @@ header{
     right: -20rem;
     transition: all 1s;
     background-color: #4b4b4b;
+    z-index: 150;
 }
 
 .showMenu .sidebar{
@@ -580,4 +585,63 @@ header{
     text-decoration: uppercase;
     padding: 1rem;
     grid-column: 2;
+}
+
+/* Rodapé */
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+/* RETORNAR AO TOPO */
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem .6rem #00000009;
+    z-index: 160;
+    transition: all 1s;
+}
+
+.showMenu #link-topo{
+    bottom: 2rem;
+    right: 21.5rem;
 }

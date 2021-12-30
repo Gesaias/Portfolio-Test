@@ -28,7 +28,7 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="./assets/fotis-fotopoulos-LJ9KY8pIH3E-unsplash (1).jpg" alt="">
             </div>
@@ -43,11 +43,11 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contatos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
 
@@ -60,7 +60,7 @@
 
         <!-- Conhecimentos -->
 
-        <section class="sessao-conhecimento">
+        <section class="sessao-conhecimento" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -143,7 +143,7 @@
 
         <!-- Projetos -->
 
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -198,7 +198,7 @@
 
         <!-- Contato -->
 
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contato">
             <div class="contato-wrapper">
 
                 <div class="contato-left"></div>
@@ -225,7 +225,9 @@
             </div>
         </section>
 
-        <section class="sessao-orcamento">
+<!-- Orcamento -->
+
+        <section class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça um Orçamento</h1>
 
@@ -235,12 +237,12 @@
 
                     <label for="js">Preciso de um script JS</label>
                     <input type="checkbox" name="js" id="js">
-                    
+
                     <label>Layout</label>
                     <div class="group-layout">
                         <div>
                             <input type="radio" name="layout" id="layout-sim">
-                             <label for="layout-sim">Preciso de um layout</label>
+                            <label for="layout-sim">Preciso de um layout</label>
                         </div>
 
                         <div>
@@ -254,6 +256,26 @@
                 </form>
             </div>
         </section>
+
+        <!-- Rodapé -->
+
+        <footer>
+            <div class="footer-content">
+                <p>Copyright &copy; 2021, Gesaias Alves - Todos os direitos reservados</p>
+
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#home" id="link-topo">
+            <i class="fa fa-arrow-up"></i>
+        </a>
 
     </div>
 
