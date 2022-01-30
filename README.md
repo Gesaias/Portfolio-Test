@@ -1,6 +1,6 @@
 # Portfolio-Test
 
-Portfolio for training
+Portfolio for knowledge application
 
 ## Tasks
 
